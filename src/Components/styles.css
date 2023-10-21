@@ -90,11 +90,12 @@ body {
 .menu_list_con {}
 
 .single_item {
-    display: flex;
+ display: grid;
+    grid-template-columns: repeat(2, 1fr);
     max-width: 600px;
     margin-inline: auto;
     margin-bottom: 2.5rem;
-
+    grid-auto-rows: 150px;
 }
 
 .img_con {
